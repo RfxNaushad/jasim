@@ -45,11 +45,12 @@ const TextReveal = () => {
   }, []);
 
   const lines = [
-    "I'm a WordPress Developer",
-    "focused on delivering high-quality,", 
-    "impactful digital solutions,",
-    "seamlessly balancing front-",
-    "end and back-end expertise."
+    "I am a MERN Stack Developer",
+    "with 10+ years of experience,", 
+    "specializing in MongoDB, React.js,",
+    "Express.js, and Node.js. 100+",
+    "clients100% Job Success on",
+    "Upwork.",
   ];
 
   return (
@@ -66,11 +67,11 @@ const TextReveal = () => {
             className="text-3xl md:text-[68px] font-bold text-white leading-[38px] md:leading-[76px] relative text-left mx-auto"
             ref={(el) => (textRefs.current[i] = el)} // Set individual ref for each text line
           >
-            {line.includes("WordPress Developer") ? (
+            {line.includes("MERN Stack Developer") ? (
               <>
-                {"I'm a "}
+                {"I’m a "}
                 <span className="senior-wordPress-developer text-green-500 opacity-50">
-                Senior WordPress Developer
+                MERN Stack Developer
                 </span>
                 {""}
               </>

@@ -20,7 +20,13 @@ const About = () => {
         </div>
         <div className='block md:hidden'>
           <h1 className='text-3xl font-bold text-white'>
-          I’m a <span className='text-green-500'>Senior Wordpress Developer</span> focused on delivering high-quality, impactful digital solutions, seamlessly balancing front-end and back-end expertise
+I am a dedicated <span className='text-green-500'>MERN Stack Developer</span> with over a
+decade of experience specializing in building fast,
+responsive, and scalable web applications. My core
+expertise lies in MongoDB, Express.js, React.js, and
+Node.js, and I have helped over 100 clients achieve
+their development goals, earning a 100% Job
+Success Score on Upwork.
           </h1>
         </div>
       </div>
